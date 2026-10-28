@@ -1,32 +1,31 @@
 # Source and provenance map
 
-The toolkit is an original synthesized framework drawn from observed Favor Tech practices. Public links below are **reference material**, not permission to copy historical credentials or venue-specific configurations.
+This toolkit is an original synthesized framework adapted from observed Tech practices. The **public** repository lists only material that is already deliberately public. Restricted source locations, repository names, account details, access records and findings belong in a separate authorized internal inventory.
 
-## First-pass public repositories reviewed
+## Public reference sources
 
-- [Internet Playbook](https://github.com/favorchurch/internet-playbook) — master Sunday SOP, volunteering, roles, setup, stream controls, troubleshooting, equipment and venue assets.
-- [RSVP](https://github.com/favorchurch/rsvp.favor.church) — representative app architecture, check-in, testing and deployment conventions (repository visibility may change).
-- [App Backend](https://github.com/favorchurch/app-backend) — representative API, Rock authorization, tests and deployment practices.
-- [Rock Pages](https://github.com/favorchurch/rock-pages) — Rock UI provisioning, environment and content conventions.
-- [Rock Dashboards](https://github.com/favorchurch/rock-dashboards) — dashboard conventions and deployment responsibilities.
-- [Rock Security](https://github.com/favorchurch/rock-security) — security-related policy conventions.
-- [Rock MCP](https://github.com/favorchurch/rock-mcp) — integration/test/deployment conventions.
-- [Favor Printer](https://github.com/favorchurch/favor-printer) — specialized venue/device integration.
+- [Internet Playbook](https://github.com/favorchurch/internet-playbook) — existing public master SOP covering Sunday operations, volunteer roles, setup, streams, troubleshooting and equipment. **Do not reproduce live venue details or assume prior versions are sanitized.**
+- [Favor Printer](https://github.com/favorchurch/favor-printer) — existing public example of venue/device integration and operational tooling.
 
-Some repositories or files may be access-restricted; links do not authorize access. Per-app README files remain authoritative for technical commands and current releases.
+## Internal source types reviewed (not linked or copied)
 
-## Existing Drive source types (not mirrored publicly)
+- Tech volunteer onboarding template and historic team training decks.
+- Website quick-update/new-page workflow, staging training, offboarding and design materials.
+- Internet Sunday SOP, debriefs and past venue diagrams.
+- App, database, identity, dashboard and operations repository documentation.
 
-During discovery we located the Tech volunteer onboarding template, website quick-update/new-page request template, website workshop, staging/cPanel training, access offboarding checklist, Internet debrief/SOP documents, and historical venue/Internet schematic materials. Their actual file URLs, private contents, and access lists intentionally are **not** reproduced here.
+**The private source register** should be maintained by Central Tech with the exact links/IDs, accountable owner, access classification, last verified date, and migration status. Keep the register in approved restricted storage; do not publish it in this open repository.
 
-Evidence and source register: maintain the approved source file ID/link, owner, last-reviewed date, and classification in an access-controlled Team record. A title or existence of a file does not establish that it remains correct.
+## How to handle specialist codebases
+
+Per-app READMEs and current code/configuration are authoritative for build commands and current release behavior. This toolkit captures **cross-repository** engineering policy and campus handoff processes, not private application internals or endpoint inventories. Access to a relevant private repository must be granted explicitly by the system owner.
 
 ## Precedence
 
-1. Verified live platform configuration and system-owner approved policy (private)
-2. Current, approved repository runbook for that system
-3. Current toolkit standard for cross-campus processes
-4. Approved campus addendum for local-only steps
-5. Historical presentations and debriefs as background evidence only
+1. Verified live platform configuration and current system-owner-approved policy (restricted);
+2. Current specialist repository runbook for that system (visibility set by its owner);
+3. Current toolkit standard for cross-campus processes;
+4. Approved private campus addendum for local-only steps;
+5. Historical presentations, debriefs and retired diagrams as background evidence only.
 
-If two sources conflict, stop and consult the accountable owner; never invent a production step from a document excerpt.
+If two sources conflict, stop and consult the accountable owner; never invent production steps from an old screenshot.
