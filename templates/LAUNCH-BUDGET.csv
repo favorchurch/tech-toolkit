@@ -1,0 +1,4 @@
+category,cost_type,requirement,quantity,unit_cost_currency,unit_cost_amount,extended_cost,quote_reference,accountable_owner_role,status
+[CONNECTIVITY],[RECURRING],[PRIMARY_SERVICE],0,[CURRENCY],0,0,[PRIVATE_QUOTE_REF],[ROLE],[PLANNING]
+[HARDWARE],[ONE_TIME],[APPROVED_EQUIPMENT],0,[CURRENCY],0,0,[PRIVATE_QUOTE_REF],[ROLE],[PLANNING]
+[SUPPORT],[RECURRING],[MAINTENANCE_OR_WARRANTY],0,[CURRENCY],0,0,[PRIVATE_QUOTE_REF],[ROLE],[PLANNING]

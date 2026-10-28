@@ -1,0 +1,2 @@
+asset_category,asset_class,quantity,condition,storage_category,custodian_role,last_checked_date,maintenance_due_date,critical_workflow,restricted_detail_reference
+[NETWORK],[PRIMARY_WAN],0,[STATUS],[LOCATION_CATEGORY],[ROLE],[YYYY-MM-DD],[YYYY-MM-DD],[WORKFLOW],[PRIVATE_REF]
