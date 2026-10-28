@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.swp
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+private/
+restricted/
+campus-private/
