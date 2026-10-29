@@ -314,6 +314,7 @@ def build(out:Path):
     nav_home=sidebar_html(ordered,None,True)
     (out/'assets').mkdir(parents=True,exist_ok=True)
     (out/'downloads').mkdir(parents=True,exist_ok=True)
+    shutil.copy2(REPO/'LICENSE',out/'LICENSE')  # Keep the linked repository license available offline.
     for filename in ('style.css','app.js'):
         shutil.copy2(SELF/'assets'/filename,out/'assets'/filename)
     toc_count=0
