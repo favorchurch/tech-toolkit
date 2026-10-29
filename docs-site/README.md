@@ -18,3 +18,9 @@ For Vercel: build command `python3 -m pip install -r docs-site/requirements.txt 
 ## Security
 
 Only commit public-safe guides. Never include actual venue configurations, private repository URLs, real credentials, network maps, personal data, or confidential screenshots in the public site or search index. Public Markdown is rendered with raw HTML disabled and unsafe URL schemes blocked by MarkdownIt defaults.
+
+## Complete offline HTML edition
+
+[Download the full offline HTML website](favor-tech-toolkit-html.tar.xz) (compressed TAR/XZ archive).
+
+The archive contains all 40 guide/template pages, homepage, navigation, search index, styles, diagrams, and downloads. Extract the archive into a folder, then open `index.html` in your browser. On macOS or Linux, run `tar -xf favor-tech-toolkit-html.tar.xz`. This is a snapshot; regenerate with `python3 docs-site/build.py` whenever the canonical Markdown changes.
